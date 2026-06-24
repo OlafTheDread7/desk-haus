@@ -93,8 +93,7 @@ section{padding:74px 0}
 
 /* ---------- Featured #1 banner ---------- */
 .products .product:first-child{grid-column:1/-1;flex-direction:row;align-items:stretch}
-.products .product:first-child .thumb{flex:0 0 44%;height:auto;min-height:300px;border-bottom:0;border-right:1px solid var(--line);
-  background:linear-gradient(120deg,rgba(17,20,24,.35),rgba(17,20,24,.1)),var(--feature);background-size:cover;background-position:center}
+.products .product:first-child .thumb{flex:0 0 42%;height:auto;min-height:300px;border-bottom:0;border-right:1px solid var(--line);background:linear-gradient(135deg,#161a21,#2a2f3a)}
 .products .product:first-child .thumb::before{font-size:120px;color:#fff;opacity:.94;text-shadow:0 4px 24px rgba(0,0,0,.5);justify-items:start;align-items:end;padding:24px}
 .products .product:first-child .thumb::after{display:none}
 .products .product:first-child .body{justify-content:center;padding:34px}
